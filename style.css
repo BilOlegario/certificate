@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #2e8b57 27.26%, #98fb98 96.03%);
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  background: #1C1C1C;
+  margin: 64px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #F6F6F6;
+  padding: 64px;
+}
+
+.cabecalho {
+  display:flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 360px;
+  max-height: 160px;
+  box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-items: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #1C1C1C;
+  border-radius: 100px;
+  color: #FFFFFF;
+  border: 2px solid #F7F7F7;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, 	#8FBC8F 27.49%, 	#2F4F4F 83.19%);
+  border-radius: 20px;
+  margin-top: 32px;
+  padding: 24px;
+  box-shadow: 4px 4px 8px rgba(16, 16, 16, 0.42);
+  color: #1C1C1C;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height
+}
+
+.projetos-item a{
+  text-decoration: none;
+}
+
+.light {
+  background: linear-gradient(230.65deg, 	#90EE90 27.49%, 	#2F4F4F 83.19%);
+}
+
+.light .container {
+  background: #F7F7F7;
+  color: #1c1c1c;
+}
+
+.light .projetos {
+  background: linear-gradient(230.65deg, 			#2E8B57 27.49%, #32CD32 83.19%);
+  color: #1c1c1c;
+}
+
+.light .tema button {
+  background:	#F7F7F7;
+  border: 2px solid #000000;
+  color: #000000;
+}
